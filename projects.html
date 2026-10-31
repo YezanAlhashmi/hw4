@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yezan Alhashmi's Projects</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header id="top">
+  <p>Yezan Alhashmi</p>
+  <nav role="navigation">
+    <a href="index.html">Home</a>
+    <a href="cv.html">CV</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+<main>
+<h1>My Projects</h1>
+  
+<article>
+  <h2><span class="highlight">Personal website</span></h2>
+  <button onclick="toggleDescription('desc1')">Show/Hide Details</button>
+  <p id="desc1">Making a professional website using html that includes a homepage, cv page, projects page, and contact page.</p>
+  <time datetime="2026-09-29">September 29th of 2026.</time>
+  <figure>
+    <img src="homepage.png" alt="The image shows the homepage of the website" width="1000">
+    <figcaption>Home Page</figcaption>
+  </figure>
+  <a href="http://hw2.yezanalhashmi.me">The website</a>
+</article>
+
+<article>
+  <h2><span class="highlight">MiniLang Compiler</span></h2>
+  <button onclick="toggleDescription('desc2')">Show/Hide Details</button>
+  <p id="desc2">A compiler front-end for a custom toy language (MiniLang+), built using ANTLR. Covers grammar definition, parsing, and semantic analysis — including symbol tables, scope resolution, and type-checking.</p>
+  <time datetime="2026-05">May of 2026.</time>
+  <figure>
+    <img src="testresults.png" alt="The image shows the results of four tests, two were valid and two were invalid">
+    <figcaption>Test Results</figcaption>
+  </figure>
+  <a href="https://github.com/YezanAlhashmi/minilang-parser">The repo</a>
+</article>
+</main>
+<footer>
+  <p>This is a website made by Yezan&copy;</p>
+  <a href="#top">Back to Top</a>
+</footer>
+<script src="scripts.js"></script>
+</body>
+</html>
+
+
